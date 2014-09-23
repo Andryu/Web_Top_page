@@ -1,0 +1,99 @@
+#header {
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+body {
+    /*overflow: hidden;/* はみだし部分非表示 */
+    color: white;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main {
+    /* width: 100%; */
+    /* border: 1px solid #000; */
+}
+.main div {
+    width: 80%;
+    /* border: 1px solid #FF0000; */
+    margin: 0 auto;
+}
+.center {
+    text-align: center;
+}
+div {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+div.small {
+    font-size: 24px;
+}
+div.middle {
+    font-size: 32px;
+}
+div.large {
+    font-size: 48px;
+}
+h3 {
+    margin: 50px 0px 0px;
+}
+.compartment.bloc1 {
+    background-image: url('../../image/Coffee-beans-close-up_1920x1080.jpg');
+    background-position: center 10%;
+    height: 420px;
+}
+.black {
+    /*background-color: black; */
+    background-color: white;
+    color: black;
+}
+.bloc4 {
+    border-top: 1px solid #E0E0E0;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #E0E0E0;
+}
+section.compartment.bloc2 {
+    background-image: url('../../image/compartment1-6df3049eae9e2b08e7b7bb885b853a09.jpg');
+    min-height: 261px;
+    background-size: 100% auto;
+    position: relative;
+    text-align: center;
+    width: 50%; 
+    height: 34%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: inline;
+    float: left;
+}
+section.bloc3 {
+    background-image: url('../../image/compartment2-669399def6a844f90f79bb988ace0477.jpg');
+    min-height: 261px;
+    background-size: 100% auto;
+    position: relative;
+    text-align: center;
+    width: 50%; 
+    height: 34%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: inline;
+    float: left;
+}
+nav.calls-to-action {
+    margin-top: 0px;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+.email {
+    width: 240px;
+    height: 32px;
+}

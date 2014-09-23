@@ -1,0 +1,7 @@
+div#menu{height:24px; /**width:500px;*/ position: relative;}
+ul#menuBody{width:100%; position: absolute; z-index:10; list-style: none; margin: 20px; padding: 0, 10px; }
+ul.nav{height:24px; overflow: hidden; background: #222; /**color:#eee; /** width: 100px;*/ font-size:12px; text-align: center; float: left; list-style: none;}
+ul.nav li{height:24px; line-height:24px; padding: 10px, 10px;}
+ul.nav li:hover{ background: #333; cursor: pointer;}
+ul#menuBody li{float: left;}
+ul#menuBody .nav li{float: none;}
