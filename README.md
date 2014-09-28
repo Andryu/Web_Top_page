@@ -1,6 +1,6 @@
 # Descripton
 
-nginxをLBの用に設定し、web-001, 002をその配下に設置
+nginxをLBのように設定し、web-001, 002をその配下に設置
 
 * ./config/nginx/lb.conf
   LB設定用
